@@ -13,7 +13,7 @@
 
 1. **克隆本仓库**：
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/StarMi-SKY/WebsitePopularityTool.git
    ```
    
 2. **服务器环境**：确保您的本地或远程服务器支持 PHP 和 MySQL（如果需要）。
