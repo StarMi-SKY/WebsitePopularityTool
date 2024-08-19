@@ -16,7 +16,7 @@
    git clone https://github.com/StarMi-SKY/WebsitePopularityTool.git
    ```
    
-2. **服务器环境**：确保您的本地或远程服务器支持 PHP 和 MySQL（如果需要）。
+2. **服务器环境**：确保您的本地或远程服务器支持 PHP 并且有PHP运行环境。
 
 3. **配置文件**：根据需要配置项目中的相关设置，例如数据库连接信息等。
 
