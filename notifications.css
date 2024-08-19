@@ -1,0 +1,31 @@
+
+.notifications {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.notification {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    display: none; /* 默认隐藏 */
+}
+
+.notification.success {
+    background-color: #16b777;
+}
+
+.notification.error {
+    background-color: #F56C6C;
+}
+
+.notification.warning {
+    background-color: #E6A23C;
+}
+
+.notification.info {
+    background-color: #909399;
+}

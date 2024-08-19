@@ -1,0 +1,28 @@
+/* 选择器样式 */
+select {
+    width: calc(20% - 20px); /* 设置宽度，减去内边距 */
+    padding: 10px; /* 内边距 */
+    margin-left: 0px; /* 左边距 */
+    margin-right: 10px; /* 右边距 */
+    border: 1px solid #ccc; /* 边框颜色 */
+    border-radius: 5px; /* 圆角效果 */
+    font-size: 16px; /* 字体大小 */
+    background-color: #f9f9f9; /* 背景色 */
+    transition: border-color 0.3s; /* 边框颜色过渡 */
+    appearance: none; /* 去掉默认的下拉箭头 */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="7,10 12,15 17,10" fill="%23333"/></svg>');
+    background-position: right 10px center; /* 位置调整 */
+    background-repeat: no-repeat; /* 不重复背景 */
+    background-size: 12px; /* 背景大小 */
+}
+
+/* 鼠标悬停时，改变边框颜色 */
+select:hover {
+    border-color: #888; /* 悬停时的边框颜色 */
+}
+
+/* 选择器获得焦点时的效果 */
+select:focus {
+    border-color: #007bff; /* 聚焦时的边框颜色 */
+    outline: none; /* 去掉默认的轮廓样式 */
+}

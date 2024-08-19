@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://emlog.suwanmo.cn/content/uploadfile/202408/54ae1724057425.jpg'); /* 替换为实际背景图片的URL */
+    background-size: cover;
+    color: white;
+    font-family: MiSans;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;  /* 确保内边距不会影响总高度 */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e9fff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80px;
+}
+
+button:hover {
+    background-color: #31bdec;
+}
+
+button:disabled {
+    background-color: grey; /* 禁用状态下的背景颜色 */
+    color: lightgrey; /* 禁用状态下的文字颜色 */
+    cursor: not-allowed; /* 禁用状态下的光标样式 */
+}
+
+button:disabled:hover {
+    background-color: grey; /* 禁用状态下禁止 hover 效果 */
+}
+
+.clock {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-family: MiSans;
+}
+
+.date {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
